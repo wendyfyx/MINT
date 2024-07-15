@@ -31,7 +31,7 @@ def compute_recon_metric(x, x_recon, feature_idx, bname, segment_idx, k):
     dti_idx = list(set(feature_idx) - set(shape_idx))
     logging.debug(f'DTI features include {[int_to_feature(i) for i in dti_idx]}')
 
-    metrics = ['mae','mape','mean_orig','mean_recon']
+    metrics = ['mae','mean_orig','mean_recon']
     dict_metric = {}
 
     for m in metrics:
