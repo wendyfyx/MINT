@@ -1,9 +1,9 @@
 # Macrostructure-Informed Normative Tractometry (MINT)
 
 ## Introduction
-> Paper: [*Microstructural Mapping of Neural Pathways in Alzheimer’s Disease using Macrostructure-Informed Normative Tractometry*](https://doi.org/10.1101/2024.04.25.591183)
+> Paper: [*Microstructural Mapping of Neural Pathways in Alzheimer’s Disease using Macrostructure-Informed Normative Tractometry*](https://doi.org/10.1101/2024.04.25.591183) (published in Alzheimer's \& Dementia)
 
-MINT is a normative tractometry framework for mapping microstructural and macrostructural abnormalities in brain white matter tracts.
+MINT is a normative tractometry framework for mapping microstructural and macrostructural abnormalities in brain white matter tracts (see [twitter thread](https://x.com/wendyfyx/status/1785538128620769397)).
 
 ## Requirement
 1. Create environment with `environment.yml` (conda) or `requirements.txt` (pip) file
@@ -33,19 +33,19 @@ Example PPMI data from the Bundle Analytics (BUAN) demo in DIPY can be downloade
 
 
 ## Cite our work 
-This manuscript is currently under review. Preprint available at https://www.biorxiv.org/content/10.1101/2024.04.25.591183v1.
 ```
-
-@misc{feng_microstructural_2024,
-	title = {Microstructural {Mapping} of {Neural} {Pathways} in {Alzheimer}'s {Disease} using {Macrostructure}-{Informed} {Normative} {Tractometry}},
+@article{feng_microstructural_2024,
+	title = {Microstructural mapping of neural pathways in {Alzheimer}'s disease using macrostructure‐informed normative tractometry},
 	copyright = {All rights reserved},
-	url = {http://biorxiv.org/lookup/doi/10.1101/2024.04.25.591183},
-	doi = {10.1101/2024.04.25.591183},
+	issn = {1552-5260, 1552-5279},
+	url = {https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.14371},
+	doi = {10.1002/alz.14371},
 	language = {en},
-	urldate = {2024-05-03},
-	author = {Feng, Yixue and Chandio, Bramsh Q and Villalon-Reina, Julio E and Thomopoulos, Sophia I and Nir, Talia M and Benavidez, Sebastian and Laltoo, Emily and Chattopadhyay, Tamoghna and Joshi, Himanshu and Venkatasubramanian, Ganesan and John, John P and Jahanshad, Neda and Reid, Robert I and Jack, Clifford R and Weiner, Michael M and Thompson, Paul M and {the Alzheimer's Disease Neuroimaging Initiative}},
-	month = apr,
+	urldate = {2025-01-07},
+	journal = {Alzheimer's \& Dementia},
+	author = {Feng, Yixue and Chandio, Bramsh Q. and Villalon‐Reina, Julio E. and Thomopoulos, Sophia I. and Nir, Talia M. and Benavidez, Sebastian and Laltoo, Emily and Chattopadhyay, Tamoghna and Joshi, Himanshu and Venkatasubramanian, Ganesan and John, John P. and Jahanshad, Neda and Reid, Robert I. and Jack, Clifford R. and Weiner, Michael W. and Thompson, Paul M. and {for the Alzheimer's Disease Neuroimaging Initiative}},
+	month = dec,
 	year = {2024},
-}
+	pages = {alz.14371},
 
 ```
